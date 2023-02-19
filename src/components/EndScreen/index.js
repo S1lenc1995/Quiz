@@ -1,2 +1,2 @@
 import EndScreen from "./EndScreen";
-export default EndScreen
+export default EndScreen 

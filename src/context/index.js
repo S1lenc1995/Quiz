@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 
 
-export const QuizeContext = createContext({})
+export const QuizeContext = createContext({}) 
 
 const QuizProvider =({children}) =>{
     const [partOfGame, setPartOfGame] = useState('start')

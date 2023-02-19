@@ -4,7 +4,7 @@ export const QuestionList = [
         optionA: "Boston",
         optionB: "Tokio",
         optionC: "London",
-        optionD: "Kyiv",
+        optionD: "Kyiv", 
         answer: "C"
     }, 
     {

@@ -5,7 +5,7 @@ import EndScreen from "./components/EndScreen";
 import { useState, useContext } from "react";
 import {QuizeContext} from "./context";
 
-function App() {
+function App() { 
   
   const {partOfGame, setPartOfGame} = useContext(QuizeContext)
   return (

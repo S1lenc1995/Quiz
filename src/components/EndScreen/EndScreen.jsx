@@ -3,7 +3,7 @@ import { QuizeContext } from "../../context/index.js";
 import { QuestionList } from "../../helpers/QuestionList.js";
 import Timer from "../Timer/Timer.jsx";
 
-import './EndScreen.scss'
+import './EndScreen.scss' 
 
 const EndScreen=()=>{
     const{setPartOfGame, setName, score, setScore, setTime, name } = useContext(QuizeContext) 

@@ -3,7 +3,7 @@ import { Children } from "react";
 import { useContext } from "react";
 import { QuizeContext } from "../context/index.js";
 import './MainPage.scss'
-
+ 
 
 const MainPage= ({children}) =>{
 
