@@ -1,0 +1,59 @@
+.start-screen{
+    text-align: center;
+}
+
+.start-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-name{
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 130px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .5s;
+    &::placeholder {
+        font-size: 20px;
+        transition: color 0.1s ease-in-out;
+        color: #6c757d;
+    }
+    &:hover,
+		&:focus {
+			border-color: #000408;
+            cursor: pointer;
+            box-shadow: 0 0 5pt 2pt #084720;
+            outline-width: 0px;
+
+			&::placeholder {
+				color: transparent;
+			}
+		}
+}
+
+.btn-send-name{
+    border: 3px solid #0b5208;
+    background: #1c6214;
+    color: #f2f2f2;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    display: block;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 20px 30px;
+    &:hover {
+        border: 3px solid #3a7999;
+        color: #3a7999;
+        background: rgba(0,0,0,0);
+    }
+    &:active {
+        transform: translateY(5px);
+        transition: .2s; 
+      }
+}

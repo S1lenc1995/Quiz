@@ -1,0 +1,23 @@
+.page{
+    background: #3995BF;
+	background: -webkit-linear-gradient(top left, #3995BF, #033B64);
+	background: -moz-linear-gradient(top left, #3995BF, #033B64);
+	background: linear-gradient(to bottom right, #3995BF, #033B64);
+    min-height: 100vh;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.quiz-wraper{
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    padding: 30px;
+	background-color: white;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}

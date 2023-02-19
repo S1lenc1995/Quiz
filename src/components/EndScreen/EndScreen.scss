@@ -1,0 +1,27 @@
+.result{
+    text-align: center;
+}
+
+.result-item{
+    font-size: 30px;
+}
+
+.btn-try-again{
+    padding: 10px 80px;
+    width: fit-content;
+    transition: all 500ms ease;
+    box-shadow: rgba(107, 9, 84, 0.35) 0px -50px 36px -28px inset;
+    background-color: rgb(132, 23, 147);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-top: 40px;
+    &:hover{
+        background-color: rgb(16, 127, 155);
+        cursor: pointer;
+    }
+    &:active{
+        transform: translateY(5px);
+        transition: .2s; 
+    }
+}
